@@ -1,4 +1,4 @@
-FROM docker-epics3_14_synapps6
+FROM lnlssol/docker-debian9-epicsbase3_14
 RUN apt-get update
 RUN apt-get install libsz2 hdf5-tools libhdf5-dev libtiff5-dev libxml2-dev re2c wget make gcc g++ libusb-1.0-0-dev x11proto-core-dev libx11-dev ivtools-dev libxext-dev -y
 RUN apt-get install vim -y
